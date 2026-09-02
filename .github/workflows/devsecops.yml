@@ -24,7 +24,7 @@ jobs:
           node-version: '18'
 
       - name: Instalar dependências
-        run: npm ci
+        run: npm install
 
       - name: Executar Linter (Análise Estática de Estilo)
         run: npm run lint
